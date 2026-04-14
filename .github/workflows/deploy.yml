@@ -35,7 +35,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.output/public' # Nuxt 生成的静态文件存放目录
+          path: '.output/public' # Distribution directory
 
       - name: Deploy to GitHub Pages
         id: deployment
